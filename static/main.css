@@ -1,0 +1,209 @@
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+  * {
+      font-family: "IBM Plex Sans", sans-serif;
+      line-height: 1.25;
+  }
+
+  #codeID {
+      font-family: "IBM Plex Mono", sans-serif;
+      line-height: 1.25;
+  }
+
+  .tableClass {
+      line-height: 1.5;
+  }
+
+  .navBar a {
+      color: gray;
+  }
+
+  .navBar {
+      font-size: 1.25rem;
+  }
+
+  .navBar a:first-child {
+      font-weight: bold;
+  }
+
+  header {
+      font-size: 1.25rem;
+  }
+  /* this is a test */
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  h2 {
+      font-size: inherit;
+  }
+
+  #loginForm {
+
+      font-size: 1.25rem;
+  }
+
+  /* end of Phase Two */
+
+  /* start of Phase Three */
+
+  html,
+  body {
+      margin: 0rem;
+      padding: 0rem;
+  }
+
+
+  .navBar {
+      background-color: gray;
+      box-shadow: 0 0 5px gray;
+      margin-bottom: 3rem;
+  }
+
+  .navBar a {
+      color: #ddd;
+
+  }
+
+  .navBar a:first-child {
+      font-weight: bold;
+      color: black;
+  }
+
+  .titleClass {
+      margin-bottom: 0rem;
+  }
+
+  .titleClass h1 {
+      margin-bottom: 0rem;
+  }
+
+  .titleClass p {
+      margin-top: 0rem;
+  }
+
+  h1 {
+      border-bottom: 1px solid #ddd;
+  }
+
+  .actionClass {
+      border: 1px solid #204a87;
+      background-color: #b1c3de;
+      padding: 1rem;
+
+  }
+
+  .actionClass a {
+      padding-left: 20rem;
+  }
+
+
+  /* phase 3 end */
+
+  /* phase 4 start */
+
+  .navBar a {
+      text-decoration: none;
+  }
+
+  .navBar a:hover {
+      text-decoration: underline;
+  }
+
+  .navBar a:active {
+      color: black;
+  }
+
+  .tableClass {
+      width: 100%;
+  }
+
+  th {
+      text-align: left;
+  }
+
+
+  .columnClass {
+      text-align: right;
+  }
+
+  .loginClass form {
+      margin: 1rem;
+  }
+
+  .loginClass #username,
+  #password {
+      width: 50%;
+
+  }
+
+  .loginClass button {
+      width: 50%;
+      margin-top: 1rem;
+  }
+
+  .loginClass form {
+      text-align: right;
+  }
+
+  .loginClass {
+      text-align: center;
+  }
+
+  .loginClass .label {
+
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+
+  }
+
+  #submissionsForm button,
+  #submissionForm a {
+      margin-right: 1rem;
+
+  }
+
+  #submissionsForm .tableClass td:nth-child(2) {
+      width: inherit;
+  }
+
+
+  /* end of phase 4*/
+
+  /* start of phase 5*/
+
+  .navBar {
+      width: 100%;
+  }
+
+  .navBar {
+      max-width: 50rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+  }
+
+  .navBar a:nth-child(1) {
+      margin-right: 1rem;
+  }
+
+  .navBar #right {
+      padding-right: 1rem;
+  }
+
+  main {
+      padding: 1rem;
+      max-width: 50rem;
+  }
+
+  .navBar a:nth-child(1),
+  .navBar #right,
+  main {
+      margin-left: 1rem;
+      margin-right: 1rem;
+  }
