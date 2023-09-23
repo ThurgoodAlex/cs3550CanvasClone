@@ -1,3 +1,7 @@
+Copyright
+==========================
+Copyright:  CS 3550,  Armstrong and Alex Thurgood - This work may not be copied for use in Academic Coursework.
+
 Your assignment repository
 ==========================
 
